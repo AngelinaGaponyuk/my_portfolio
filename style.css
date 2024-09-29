@@ -1,0 +1,314 @@
+@font-face {
+    font-family: 'a_RewinderDemi';
+    src: url('ARewinderDemi.eot');
+    src: url('ARewinderDemi.eot?#iefix') format('embedded-opentype'),
+        url('ARewinderDemi.woff2') format('woff2'),
+        url('ARewinderDemi.woff') format('woff'),
+        url('ARewinderDemi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.first_screen {
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-position: center;
+    padding-top: 34px;
+}
+.container {
+    max-width: 1118px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.social_item_tg {
+    margin-right: 17px;
+}
+.offer {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#heading1 {
+    font-family: "a_RewinderDemi";
+    font-size: 48px;
+    color: #473941;
+    line-height: 1.27em;
+    letter-spacing: 0.02em;
+}
+.gradient {
+    background: linear-gradient(#FFDC37, #F49A10);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p.offer_text {
+    margin-top: 22px;
+    margin-bottom: 30px;
+}
+.btn_a1 {
+    text-decoration: none;
+    color: white;
+}
+.btn_a2 {
+    text-decoration: none;
+    color: #DC1692;
+}
+.btn1 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 0.06em;
+    background-image: linear-gradient(108deg, #E71B7B, #A900FD);
+    padding: 19px 41px;
+    border-radius: 100px;
+    border: 0;
+}
+.btn2 {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 16px;
+    color: #DC1692;
+    letter-spacing: 0.06em;
+    padding: 19px 41px;
+    border-radius: 100px;
+    margin-left: 30px;
+    border: 2px solid #DC1692;
+    border-radius: 100px;
+    background-color: transparent;
+}
+.offer_img {
+    margin-top: 42px;
+    margin-bottom: 82px;
+    margin-left: 20px;
+}
+.main_block {
+    padding-top: 74px;
+    background-color: white;
+}
+h2 {
+    text-align: center;
+    font-family: "a_RewinderDemi";
+    font-size: 36px;
+    color: #473941;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+.block {
+    padding-bottom: 74px;
+}
+.experience {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+h3 {
+    font-family: "a_RewinderDemi";
+    font-size: 24px;
+    color: #473941;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.work {
+    background-image: linear-gradient(130deg, #edfffe, #d7fffc);
+    padding: 55px;
+    border-radius: 10px;
+}
+p {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    color: #473941;
+    line-height: 1.72em;
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+.work_time {
+    font-size: 14px;
+    font-style: italic;
+    color: #473941;
+    opacity: 0.7;
+    margin-top: 10px;
+}
+.post {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+ul {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 16px;
+    color: #473941;
+    line-height: 1.72em;
+    letter-spacing: 0.06em;
+    margin: 0;
+}
+.li_design {
+    background: linear-gradient(#FFDC37, #F49A10);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.portfolio {
+    font-weight: 600;
+    text-decoration: none;
+}
+.row_projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.project {
+    height: 253.09px;
+    width: 360px;
+}
+.btn_mt {
+    margin-top: 45px;
+}
+.btn1_dop {
+    margin: 0 auto;
+    display: block;
+}
+.certificates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.certificate {
+    height: 45%;
+    width: 45%;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.confid {
+    background-color: #FEF2D8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.text_confid {
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .first_screen {
+        padding-top: 24px;
+    }
+    .logo {
+        width: 80%;
+        height: 80%;
+    }
+    .social {
+        margin-top: 15px;
+    }
+    .social_item_tg {
+        margin-right: 8px;
+    }
+    .social_item {
+        width: 80%;
+        height: 80%;
+    }
+    .offer {
+        display: block;
+    }
+    #heading1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 13px;
+    }
+    .btn1 {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .btn2 {
+        font-size: 13px;
+        padding: 19px 41px;
+        margin-left: 0;
+    }
+    .offer_img {
+        padding-bottom: 34px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+    .web_img {
+        width: 100%;
+        height: 100%;
+    }
+    .main_block {
+        padding-top: 34px;
+    }
+    .block {
+        padding-bottom: 34px;
+    }
+    h2 {
+        font-size: 24px;
+        margin-bottom: 17px;
+    }
+    ul {
+        font-size: 13px;
+    }
+    .experience {
+        display: block;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    .work {
+        padding: 30px;
+        border-radius: 5px;
+    }
+    .work_first {
+        margin-bottom: 16px;
+    }
+    .work_time {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .post {
+        font-weight: 700;
+        font-size: 16px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    .row_projects {
+        display: block;
+        margin: 0;
+    }
+    .project {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 16px;
+    }
+    .btn_mt {
+        margin-top: 16px;
+    }
+    .certificates {
+        display: block;
+    }
+    .certificate {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+    .certificate_first {
+        margin-bottom: 16px;
+    }
+}
