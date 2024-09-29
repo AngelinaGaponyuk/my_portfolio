@@ -43,7 +43,7 @@
     justify-content: space-between;
     align-items: center;
 }
-#heading1 {
+.heading1 {
     font-family: "a_RewinderDemi";
     font-size: 48px;
     color: #473941;
@@ -59,14 +59,6 @@ p.offer_text {
     margin-top: 22px;
     margin-bottom: 30px;
 }
-.btn_a1 {
-    text-decoration: none;
-    color: white;
-}
-.btn_a2 {
-    text-decoration: none;
-    color: #DC1692;
-}
 .btn1 {
     font-family: "Montserrat";
     font-weight: 700;
@@ -77,6 +69,7 @@ p.offer_text {
     padding: 19px 41px;
     border-radius: 100px;
     border: 0;
+    text-decoration: none;
 }
 .btn2 {
     font-family: "Montserrat";
@@ -90,6 +83,7 @@ p.offer_text {
     border: 2px solid #DC1692;
     border-radius: 100px;
     background-color: transparent;
+    text-decoration: none;
 }
 .offer_img {
     margin-top: 42px;
@@ -184,8 +178,11 @@ ul {
     margin-top: 45px;
 }
 .btn1_dop {
-    margin: 0 auto;
     display: block;
+    text-align: center;
+    width: fit-content;
+    box-sizing: border-box;
+    margin: 0 auto;
 }
 .certificates {
     display: flex;
