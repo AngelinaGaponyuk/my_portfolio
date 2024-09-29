@@ -225,20 +225,29 @@ ul {
     .offer {
         display: block;
     }
-    #heading1 {
+    .heading1 {
         font-size: 30px;
     }
     p {
         font-size: 13px;
     }
     .btn1 {
+        display: inline-block;
         font-size: 13px;
-        margin-bottom: 13px;
     }
     .btn2 {
+        display: inline-block;
         font-size: 13px;
         padding: 19px 41px;
         margin-left: 0;
+        margin-top: 13px;
+    }
+    .btn1_dop {
+        display: block;
+        text-align: center;
+        width: fit-content;
+        box-sizing: border-box;
+        margin: 0 auto;
     }
     .offer_img {
         padding-bottom: 34px;
@@ -295,7 +304,7 @@ ul {
         margin-bottom: 16px;
     }
     .btn_mt {
-        margin-top: 16px;
+        margin-top: 6px;
     }
     .certificates {
         display: block;
