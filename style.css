@@ -175,6 +175,7 @@ ul {
 .project {
     height: 253.09px;
     width: 360px;
+    border-radius: 10px;
 }
 .btn_mt {
     margin-top: 45px;
@@ -196,6 +197,7 @@ ul {
     width: 45%;
     margin-left: 15px;
     margin-right: 15px;
+    border-radius: 10px;
 }
 .confid {
     background-color: #FEF2D8;
